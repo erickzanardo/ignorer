@@ -1,6 +1,6 @@
 {
   "name": "ignorer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple tool to fecth predefined .gitignore files and save on your project",
   "repository": {
     "type": "git",

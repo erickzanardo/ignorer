@@ -21,7 +21,7 @@ module.exports = function(file, path) {
       console.log(chalk.red('Cannot find ' + file));
     } else {
       var fullpath = [path, '.gitignore'].join('/');
-      fs.writeFile(fullpath, body, 'utf8', function(err) {
+      fs.appendFile(fullpath, body, 'utf8', function(err) {
         if (err) throw err;
         console.log(chalk.green('.gitignore created at ' + fullpath));
         console.log(chalk.green('with contents: '));

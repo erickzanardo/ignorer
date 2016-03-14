@@ -1,2 +1,3 @@
 .idea/
-fitnessos.iml
+*.iml
+target/
